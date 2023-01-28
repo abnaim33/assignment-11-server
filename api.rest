@@ -1,0 +1,9 @@
+POST   http://localhost:5000/api/create HTTP/1.1
+content-type: application/json
+
+{
+    "email": "md.naimhossen.3333@gmail.com",
+    "username": "Md Naim Hossen",
+    "userImage":"https://lh3.googleusercontent.com/a/AEdFTp4WmFGaTZaL1MA_MPI7_pPRV9R9hU-q-bcgGtHG=s96-c",
+    "reviewText":"As good as I expected. Great work you can also try them"
+}
