@@ -12,6 +12,8 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 
+
+// routes
 app.use('/api', reviewRoute)
 app.use('/api', orderRoute)
 
@@ -20,7 +22,7 @@ mongoose.connect(process.env.DB_URI)
     .then(() => console.log('database connected'))
 
 app.get("/", (req, res) => {
-    res.send("hello world")
+    res.send("finally hello world")
 })
 
 
